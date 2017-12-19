@@ -1,0 +1,11 @@
+﻿/* Customizer Link Section */
+#accordion-section-thorium_pro h3 {
+	background-color: #0073aa !important;
+	color: #fff !important;
+}
+
+#accordion-section-thorium_pro h3:hover,
+#accordion-section-thorium_pro h3:focus {
+	background-color: #fff !important;
+	color: #0073aa !important;
+}
