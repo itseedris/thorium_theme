@@ -17,7 +17,7 @@ if ( ! function_exists( 'thorium_header_style' ) ) :
 	
 		// Setting up variables
  		$thorium_header_image = get_header_image();
- 		$thorium_header_text_color = get_header_textcolor();
+ 		$thorium_header_text_color = "#".get_header_textcolor();
  	
  		// Checks if it's a single post or page and uses the featured image else use header image
  		if( is_singular() && ( get_theme_mod('thorium_featured_image_posts', 0 ) === 1 ) ){
