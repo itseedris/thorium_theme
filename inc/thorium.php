@@ -40,7 +40,7 @@ if ( ! function_exists( 'thorium_header_style' ) ) :
 				background-size:cover;
 				-o-background-size:cover;
 				text-align:center;
-				color:#<?php echo esc_html( $thorium_header_text_color ); ?>;
+				color:<?php echo sanitize_hex_color( $thorium_header_text_color ); ?>;
 			}
 			<?php if ( 'blank' === $thorium_header_text_color ) { ?>
 				header .intro-text{
